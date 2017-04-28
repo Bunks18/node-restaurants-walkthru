@@ -2,3 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: hInja9CH9wkNGa4Tx1Th8Gd2/Oemlie2fkIyOHj3i/mBBUNSOAEItSJ6vLCEMNCLEyB1IFYB43ejOf1c1CKz8Jnc4CT/QkLlGgytKQcQBW3e7zzYc5YQiNjkTQAmKKPqTo+u3HDpvCCQewdIZtqFFkHZ8QxH6NyZu2nMfNKgz08695wKCY9Fx9oxYL66UErv9kjS1dUVMxu74KKEbSKTqcsYZAcBcC+aEp+VeaJAd/9l4KdvycHQ833m16OXNeNWfN7fM8mL8eqpKmQr7h7gYo/iQ9Mh4zKWKNOr5Zirn5Z74H38DOVkT5Rf2rFb8oqohUHt195S7FPOjHpLBXQelDqNLtpdu5ufIe2oiKuka3TuudQ72ihafD5q/lsX9rql9Ko7fghVJ48oYsrjmMqbGHNvxGYL1yB+XKE0uBy75Rjs8BnI/CPIsQMIO6BzhelecuQ7TEGkyH5FcgKW0kBbkT9I9rLRGt/lIQWwT4S2g8Jcs3PNYZm+Sy7DHxq6xwGJWt1f+Ke3ScVCszSm8xAgfG5rCojxraYDFcTyOyZ+j+aympywnXCJdPs9qTlaNSjv1GG887dxhPfOsQ+rA8nWdnJXeWeTJ0vvrPJquZtfRvfsqJ4DxCiHJNSKBlj1RyQkiMcofl7O4pcKLABposzR2Yj0nCQzgqrHL0SyzwmUZ2c=
+  app: mysterious-journey-93091
+  on:
+    repo: Bunks18/node-restaurants-walkthru
